@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>Rosserial_arduino</name>
+  <name>rosserial_arduino</name>
   <version>0.0.0</version>
   <description>Package for listen to Arduino board node</description>
 
@@ -10,7 +10,7 @@
   <license>BSD</license>
 
 
-  <!-- <url type="website">http://wiki.ros.org/Rosserial_arduino</url> -->
+  <!-- <url type="website">http://wiki.ros.org/rosserial_arduino</url> -->
 
   <author email="xavier@inegocis.com">Xavier Blasco</author>
 
