@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>Rosserial_arduino</name>
+  <version>0.0.0</version>
+  <description>Package for listen to Arduino board node</description>
+
+  <maintainer email="xavier@inegocis.com">Xavier Blasco</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <!-- <url type="website">http://wiki.ros.org/Rosserial_arduino</url> -->
+
+  <author email="xavier@inegocis.com">Xavier Blasco</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+
+  <export>
+
+  </export>
+</package>
