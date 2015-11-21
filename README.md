@@ -17,17 +17,19 @@ Package for listen to Arduino board node
 
     $ rosrun rosserial_python serial_node.py /dev/ttyACM0
     
-    To Know which port are your arduino board connected , go to Tools / Serial Port on your Arduino IDE menu.
+    To Know which port are your arduino board connected:
+    Go to Tools/ erial Port on your Arduino IDE menu.
     
     Know you can view data incoming from Arduino. Open a new Terminal window.
-    This will print on screen data received. Our topic in Arduino node is called "sinus".You should change for your topic name.
+    This will print on screen data received. Our topic in Arduino node is called "sinus".
+    You should change for your topic name.
     
     $  rostopic echo sinus
     
 
 
 # Ros Package    
-3.- ow we will create a launcher for these instructions. Create a new Ros Package 
+3.-Now we will create a launcher for these instructions. Create a new Ros Package 
     We can do that with following explession on terminal. You should execute this instruction on your ros workspace (into src directory)
     
     catkin_ws/src/$ catkin_create_pkg rosserial_arduio std_msgs rospy roscp
@@ -35,7 +37,22 @@ Package for listen to Arduino board node
     We include std_msgs dependencie as well as rospy and roscp dependencies
     
     Now we should edit package.xml file and CMakeLists.txt with our own data information.
+
+
+# Ros Launch   
+4.-We have created a launch file to do these steps easily
     
+   Run roscore (this is not necessary if it's already running.
+   
+   $ roscore
+   
+   Launch arduino launch file
+   
+   $ roslaunch rosserial_arduino arduino.launch
+   
+   
+
+   
 
 
 
